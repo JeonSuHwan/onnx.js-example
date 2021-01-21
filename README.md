@@ -9,4 +9,4 @@ Reference from [https://github.com/elliotwaite/pytorch-to-javascript-with-onnx-j
 
 <h3>Result</h3>
 <br>
-![Ex_image](onnx.js-example/img/image.png)
+![Ex_image](../img/image.png)
