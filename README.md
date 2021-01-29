@@ -7,5 +7,8 @@ Reference from [https://github.com/elliotwaite/pytorch-to-javascript-with-onnx-j
 
 -------------------------------------------------------------------
 
-<h3>Result</h3>
+<h3>Result (Mnist model)</h3>
 <img src="./img/image.PNG">
+
+<h3>Result2 (Fashion_mnist model)</h3>
+<img src="./img/image2.PNG">
