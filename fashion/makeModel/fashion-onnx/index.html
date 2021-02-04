@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <title>Fashion mnist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="card elevation">
+
+    <canvas class="canvas elevation" id="canvas" width="280" height="280"></canvas>
+
+    <div class="options">
+      <label for="imageSelect">[이미지 선택]</label>
+      <br>
+      <select class="form-control" id="imageSelect" name="imageSelect" onchange="imageKindChange();">
+        <option value="img/white.jpg">---이미지를 선택하세요---</option>
+        <option value="img/t-shirt.jpg">T-shirt/top</option>
+        <option value="img/trouser.jpg">Trouser</option>
+        <option value="img/pullover.jpg">Pullover</option>
+        <option value="img/dress.jpg">Dress</option>
+        <option value="img/coat.jpg">Coat</option>
+        <option value="img/sandal.jpg">Sandal</option>
+        <option value="img/shirt.jpg">Shirt</option>
+        <option value="img/sneaker.jpg">Sneaker</option>
+        <option value="img/bag.jpg">Bag</option>
+        <option value="img/ankle-boot.jpg">Ankle boot</option>
+      </select>
+    </div>
+
+    <div class="prediction">
+      [예측 결과]
+      <br>
+      <div id="result">
+        --
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
